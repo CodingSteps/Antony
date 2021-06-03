@@ -1,6 +1,17 @@
 <html>
 <head>
 	<title>Web Programming</title>
+	<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
+</style>
+
 </head>
 <body>
 <h1> Welcome to Coding Steps</hl>
@@ -23,11 +34,24 @@
 <br>
 <br>
 <a href="https://www.wikipedia.org/"> Wikipedia </a> 
-
+<br>
 <ol type="I">
-	<li>html</li>
+	<li>html
+	    <ul>
+		    <li>Chapter1
+		    	<ul>
+		    		<li>Indside Chapter 1</li>
+		    	</ul></li>
+
+		    <li>Chapter2</li>
+	    </ul>
+    </li>
 	<li>CS5C</li>
-	<li>Query</li>
+	<li>JQuery
+		<ol>
+			<li>JQuery1</li>
+			<li>JQuery2</li>
+		</ol></li>
 </ol>
 <br>
 <br>
@@ -36,8 +60,170 @@
 	<li>CS5C</li>
 	<li>Query</li>
 </ul>
-
-
+<br>
+<br>
+<table>
+<tr>
+	<th>FirstName</th>
+	<th>LastName</th>
+	<th>Age</th>
+</tr>
+<tr>	
+	<td>Antony</td>
+	<td>Hansel</td>
+	<td>11</td>
+</tr>
+<tr>	
+	<td>Meenakshi</td>
+	<td>Kumar</td>
+	<td>12</td>
+</tr>
+</table>
+<br>
+<table>
+<tr>
+	<th>Name</th>
+	<th colspan="2">Telephone</th>
+</tr>
+<tr>
+	<td>CodingSteps</td>
+	<td>9502801842</td>
+	<td>9607389183</td>
+</tr>
+</table>
+<br>
+<table>
+<tr>
+	<th>Name</th>
+	<td>CodingSteps</td>
+</tr>
+<tr>
+	<th rowspan="2">Telephone</th>
+	<td>9723239678</td>
+</tr>
+<tr>
+	<td>9427562986</td>
+</tr>
+</table>
+<br>
+<table>
+<tr>
+	<th>No.</th>
+	<th>Full Name</th>
+	<th>Position</th>
+	<th>Salary</th>
+</tr>
+<tr>
+	<td>1</td>
+	<td>Bill Gates</td>
+	<td>Founder Microsoft</td>
+	<td>$1000</td>
+</tr>
+<tr>
+	<td>2</td>
+	<td>Steve Jobs</td>
+	<td>Founder Apple</td>
+	<td>$1200</td>
+</tr>
+<tr>
+	<td>3</td>
+	<td>Larry Page</td>
+	<td>Founder Google</td>
+	<td>$1100</td>
+</tr>
+<tr>
+	<td>4</td>
+	<td>Mark Zuckeberg</td>
+	<td>Founder Facebook</td>
+	<td>$1300</td>
+</tr>
+</table>
+<br>
+<table>
+<tr>
+	<th colspan="6">TimeTable</th>
+</tr>
+<tr>
+	<th rowspan="6">Hours</th>
+	<td>Mon</td>
+	<td>Tue</td>
+	<td>Wed</td>
+	<td>Thu</td>
+	<td>Fri</td>
+</tr>
+<tr>
+	<td>Science</td>
+	<td>Maths</td>
+	<td>Science</td>
+	<td>Maths</td>
+	<td>Art</td>
+</tr>
+<tr>
+	<td>Social</td>
+	<td>History</td>
+	<td>English</td>
+	<td>Social</td>
+	<td>Sports</td>
+</tr>
+<tr>
+	<td colspan="5">--LUNCH--</td>
+</tr>
+<tr>
+	<td>Science</td>
+	<td>Maths</td>
+	<td>Science</td>
+	<td>Maths</td>
+	<td rowspan="2">Project</td>
+</tr>
+<tr>
+	<td>Social</td>
+	<td>History</td>
+	<td>English</td>
+	<td>Social</td>
+</tr>
+</table>
+<br>
+<table>
+<tr>
+	<th colspan="2">Subject</th>
+	<th>John Doe</th>
+	<th>Miriam Luther</th>
+</tr>
+<tr>
+	<td rowspan="2">Biology</td>
+	<td>Practical</td>
+	<td>A</td>
+	<td>A</td>
+</tr>
+<tr>
+	<td>Theory</td>
+	<td>A+</td>
+	<td>A</td>
+</tr>
+<tr>
+	<td rowspan="2">Chemistry</td>
+	<td>Practical</td>
+	<td>B</td>
+	<td>C</td>
+</tr>
+<tr>
+	<td>Theory</td>
+	<td>A</td>
+	<td>C+</td>
+</tr>
+<tr>
+	<td rowspan="2">Physics</td>
+	<td>Practical</td>
+	<td>A</td>
+	<td>A</td>
+</tr>
+<tr>
+	<td>Theory</td>
+	<td>A-</td>
+	<td>A-</td>
+</tr>
+</table>
 <h2>Heading Element 2 Again</h2>
+<br>
 </body>
 </html>
