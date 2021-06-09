@@ -1,0 +1,19 @@
+h1{
+	color: red;
+}
+h2{
+	color: blue;
+	background-color: skyblue;
+}
+p{
+	color: orange;
+	background-color: indianred;
+}
+ol{
+	color: white;
+	background-color: lightgreen;
+}
+ul{
+	color: aqua;
+	background-color: royalblue;
+}
