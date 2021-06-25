@@ -1,0 +1,40 @@
+body{
+	background-image: url(images/sp.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+.Head{
+	color: red;
+	text-align: center;
+}
+
+#sp{
+	color: #006400;
+	text-align: center;
+	background-color: #FFD700;
+}
+
+#line{
+	border: 2px solid blue;
+	color: red;
+}
+
+.para{
+	background-color: #FFEBCD;
+}
+
+#bg{
+	color: white;
+	background-color: #008B8B;
+	border-right: 10px solid #FFB6C1;
+}
+
+#blue{
+	color: blue;
+	border-left: 10px solid red;
+}
+
+#he{
+	border-top: 2px solid #32CD32;
+	border-bottom: 4px solid #87CEFA;
+}

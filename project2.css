@@ -1,6 +1,22 @@
-h3{
-	color: red;
+body{
+	background-image: url(images/nothron.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	text-align: center;
+	background-color: #1aa3ff;
 }
-h4{
-	color: green;
+#para1{
+	color: red;
+	font-weight: bold;
+	font-size: 25px;
+}
+.newClass{
+	color: red;
+	text-align: center;
+}
+#para2{
+	background-color: #1aff1a;
+}
+p{
+	border: 4px dotted #ff9933;
 }
