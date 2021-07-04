@@ -1,0 +1,161 @@
+<html>
+<head>
+	<title>Form</title>
+	<link href="p7.css" rel="stylesheet">
+</head>
+<body>
+	<div id="f">
+
+		<h1 style="color: white;" align="center">Survey Form</h1>
+		
+	<form>
+		<label for="n" class="c1">Name</label><br><br>
+		<input type="text" id="n" placeholder="Enter Your Name"><br><br>
+
+		<label for="e" class="c1">Email</label><br><br>
+		<input type="email" id="e" placeholder="Enter Your Email"><br><br>
+
+		<label for="a" class="c1">Age</label><br><br>
+		<input type="number" id="a" min="10" max="45"><br><br>
+
+		<label for="c" class="c1">Date of filling Form</label><br><br>
+		<input type="date" min="2021/7/4" max="2021/12/31" id="c"><br><br>
+
+		<label for="dd" class="c1">Your Current Role</label><br><br>
+		<select id="dd">
+			<option>Choose Your Current Role</option>
+			<option>Student</option>
+			<option>Teacher</option>
+			<option>Doctor</option>
+			<option>Engineer</option>
+			<option>Scientist</option>
+			<option>Architect</option>
+			<option>Actor/Actress</option>
+			<option>Nurse</option>
+			<option>Principal</option>
+			<option>Director</option>
+			<option>Coordinator</option>
+			<option>Astronaut</option>
+			<option>Receptionist</option>
+			<option>Police Officer</option>
+			<option>Security Guard</option>
+			<option>Firefighter</option>
+			<option>President</option>
+			<option>Other........</option>
+		</select><br><br>
+
+		<p class="c1">Favourite Food</p>
+		<p id="c2">Select All Your Favourite Food</p>
+		
+		<input type="checkbox" id="o1">
+		<label for="o1" class="lbl">Fruits</label><br>
+		<input type="checkbox" id="o2">
+		<label for="o2" class="lbl">Vegetables</label><br>
+		<input type="checkbox" id="o3">
+		<label for="o3" class="lbl">Pizza</label><br>
+		<input type="checkbox" id="o4">
+		<label for="o4" class="lbl">Burger</label><br>
+		<input type="checkbox" id="o5">
+		<label for="o5" class="lbl">French Fries</label><br>
+		<input type="checkbox" id="o6">
+		<label for="o6" class="lbl">Rice</label><br>
+		<input type="checkbox" id="o7">
+		<label for="o7" class="lbl">Sandwich</label><br>
+		<input type="checkbox" id="o3">
+		<label for="o8" class="lbl">Others......</label><br><br>
+		
+		<label for="dd2" class="c1">Your Favourite Animal</label><br><br>
+		<select id="dd2">
+			<option>Choose Your Favourite Animal</option>
+			<option>Elephant</option>
+			<option>Lion</option>
+			<option>Tiger</option>
+			<option>Cheetah</option>
+			<option>Deer</option>
+			<option>Leopard</option>
+			<option>Porcupine</option>
+			<option>Rhinoceros</option>
+			<option>Hippopotamus</option>
+			<option>Bongo</option>
+			<option>Zebra</option>
+			<option>Monkey</option>
+			<option>Badger</option>
+			<option>Mongoose</option>
+			<option>Snake</option>
+			<option>Crocodile</option>
+			<option>Birds</option>
+			<option>Fish</option>
+			<option>Whale Shark</option>
+			<option>Blue Whale</option>
+			<option>Alligator</option>
+			<option>Dolphin</option>
+			<option>Seal</option>
+			<option>Dog</option>
+			<option>Cat</option>
+			<option>Horse</option>
+			<option>Cow</option>
+			<option>Pig</option>
+			<option>Donkey</option>
+			<option>Fox</option>
+			<option>Wolf</option>
+			<option>Camel</option>
+			<option>Jackal</option>
+			<option>Moose</option>
+			<option>Bull</option>
+			<option>Bufallo</option>
+			<option>Hare</option>
+			<option>Goat</option>
+			<option>Sheep</option>
+			<option>Jaguar</option>
+			<option>Narwhal</option>
+			<option>Orca</option>
+			<option>Giraffe</option>
+			<option>Capybara</option>
+			<option>Skunk</option>
+			<option>Polar Bear</option>
+			<option>Beluga Whale</option>
+			<option>Humpback Whale</option>
+			<option>Manta Ray</option>
+			<option>Stingray</option>
+			<option>Octopus</option>
+			<option>Squid</option>
+			<option>Great White Shark</option>
+			<option>Brown Bear</option>
+			<option>Sloth</option>
+			<option>Panda</option>
+			<option>Grizzly Bear</option>
+			<option>Dinosaurs</option>
+			<option>Squirrel</option>
+			<option>Hare</option>
+			<option>Tortoise</option>
+			<option>Turtle</option>
+			<option>Chipmunk</option>
+			<option>Hedgehog</option>
+			<option>Wild Boar</option>
+			<option>Panther</option>
+			<option>Orangutan</option>
+			<option>Chimpanzee</option>
+			<option>Gorilla</option>
+			<option>Kangaroo</option>
+			<option>Kangaroo Rat</option>
+			<option>Scorpion</option>
+			<option>Fennec Fox</option>
+			<option>Mouse</option>
+			<option>Anaconda</option>
+			<option>Other..........</option>
+		</select><br><br>
+
+		<p class="c1">Do you like Sports?</p>
+		<input type="radio" id="b1" name="rbtn">
+		<label for="b1">Yes</label><br>
+		<input type="radio" id="b1" name="rbtn">
+		<label for="b1">No</label><br><br><br>
+
+		<textarea rows="10" cols="100" placeholder="If yes, type your favourite sports here and why you like it"></textarea><br><br><br><br>
+
+		<input type="submit" value="Submit My Form" id="smmf">
+
+	</form>
+	</div>
+</body>
+</html>
