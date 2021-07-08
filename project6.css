@@ -1,0 +1,29 @@
+.gd{
+	background-image: linear-gradient(to bottom right,rgba(166, 0, 0, 0.1),rgba(166, 0, 0, 0.5) ) ,url(https://cdn.pixabay.com/photo/2019/02/01/14/24/landscape-3969074_960_720.jpg);
+	width: 1000px;
+	height: 600px;
+}
+
+.font{
+	font-family: Abel,sans-serif;
+}
+
+#ic{
+	color: green;
+	font-size: 100px;
+}
+
+.mB{
+	padding: 20px;
+	background-color: blueviolet;
+	border-radius: 20px;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	box-shadow: 3px 3px gray;
+}
+
+.mB:hover{
+	background-color: red;
+	text-decoration: underline;
+}
