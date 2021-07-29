@@ -1,0 +1,43 @@
+ul{
+	background-color: black;
+	color: white;
+	list-style-type: none;
+	text-align: right;
+	padding-right: 20px;
+}
+
+li{
+	display: inline-block;
+	padding: 30px 20px 30px 20px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+li:hover{
+	background-color: red;
+	text-shadow: 1px 1px lightgrey;
+}
+
+.divone{
+	position: relative;
+	background-color: lightgreen;
+	width: 1000px;
+	height: 600px;
+}
+
+.divtwo{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 500px;
+	height: 150px;
+	background-color: black;
+	color: white;
+	font-size: 40px;
+	font-weight: 700;
+	padding-top: ;
+}

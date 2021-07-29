@@ -1,0 +1,47 @@
+li{
+	display: inline-block;
+	list-style-type: none;
+	padding: 20px;
+	color: black;
+	height: 40px;
+}
+
+ul{
+	text-align: right;
+	background-color: lightblue;
+	font-size: 25px;
+	margin-top: 0px;
+	padding-right: 10px;
+	font-family: 'Patrick Hand', cursive;
+	padding: 10px;
+}
+
+li:hover{
+	background-color: darkblue;
+	color: white;
+	text-shadow: 1px 1px lightblue;
+}
+
+img{
+	display: block;
+	margin: auto;
+}
+
+#div1{
+	position: absolute;
+}
+
+#div2{
+	display: inline-block;
+	position: relative;
+	margin-left: 440px;
+	margin-top: 270px;
+	background-color: rgba(255,81,76,0.40);
+	color: white;
+	font-size: 20px;
+	font-family: 'Patrick Hand', cursive;
+	color: rgba(255, 255, 255, 0.75);
+}
+
+
+
