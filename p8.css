@@ -1,0 +1,21 @@
+.img1{
+	background-image: url(images/dinos.jpg);
+	height: 1100px;
+	opacity: 0.5px;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	padding: 0px;
+}
+
+.txt{
+	background-color: rgba(125, 125, 125, 0.90);
+	color: rgba(255, 255, 255, 0.90);
+	position: absolute;
+	text-align: center;
+	letter-spacing: 8px;
+	font-size: 40px;
+	width: 400px;	
+	left: 500px;
+	top: 500px;
+}
