@@ -1,11 +1,16 @@
+body{
+	margin: auto;
+}
+
 .img1{
 	background-image: url(images/dinos.jpg);
 	height: 1100px;
-	opacity: 0.5px;
+	opacity: 0.5;
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
 	padding: 0px;
+
 }
 
 .txt{
@@ -17,5 +22,83 @@
 	font-size: 40px;
 	width: 400px;	
 	left: 500px;
+	font-family: 'Style Script', cursive;
+}
+
+.txt2{
+	background-color: lightgray;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+	width: 1329px;
+	padding: 10px;
+	font-family: 'Style Script', cursive;
+}
+
+.img2{
+	background-image: url(images/trex.jpg);
+	height: 1100px;
+	opacity: 0.5;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	padding: 0px;
+}
+
+h2{
+	color: antiquewhite;
+	padding: 5px;
+}
+
+.txt3{
+	color: navajowhite;
+	position: absolute;
+	text-align: center;
+	letter-spacing: 8px;
+	font-size: 40px;
+	width: 400px;	
+	left: 500px;
+	top: 500px;
+	font-family: 'Style Script', cursive;
+}
+
+.txt4{
+	background-color: #8f8f8f;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+	width: 1329px;
+	padding: 10px;
+	font-family: 'Style Script', cursive;
+}
+
+.img3{
+	background-image: url(images/d3.jpg);
+	height: 1100px;
+	opacity: 0.5;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	padding: 0px;
+}
+
+.txt5{
+	background-color: #595959;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	font-size: 20px;
+	width: 1329px;
+	padding: 10px;
+	font-family: 'Style Script', cursive;
+}
+
+#i{
+	top: 100px;
+}
+
+#i2{
 	top: 500px;
 }
