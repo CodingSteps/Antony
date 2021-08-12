@@ -1,0 +1,24 @@
+body{
+	background-color: whitesmoke;
+}
+.intro{
+	letter-spacing: 5px;
+	font-family: 'Shadows Into Light', cursive;
+	line-height: 40px;
+	background-color: skyblue;
+	margin: 5px;
+	padding: 10px;
+	overflow: auto;
+	font-size: 20px;
+}
+
+.img1{
+	border-radius: 100%;
+	float: left;
+	margin-right: 20px;
+}
+
+a{
+	text-decoration-line: none;
+	color: black;
+}
