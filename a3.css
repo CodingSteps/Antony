@@ -2,14 +2,10 @@ body{
 	background-color: whitesmoke;
 }
 .intro{
-	letter-spacing: 5px;
-	font-family: 'Shadows Into Light', cursive;
-	line-height: 40px;
 	background-color: skyblue;
 	margin: 5px;
 	padding: 10px;
 	overflow: auto;
-	font-size: 20px;
 }
 
 .img1{
@@ -21,4 +17,25 @@ body{
 a{
 	text-decoration-line: none;
 	color: black;
+}
+
+.text{
+	font-family: 'Shadows Into Light', cursive;
+	line-height: 30px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-align: justify;
+}
+
+.img2{
+	float: right;
+	border-radius: 10%;
+	margin: 20px;
+}
+
+#co{
+	border: 10px solid skyblue;
+	overflow: auto;
+	padding: 20px;
+
 }
