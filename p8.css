@@ -10,7 +10,6 @@ body{
 	background-attachment: fixed;
 	position: relative;
 	padding: 0px;
-
 }
 
 .txt{
@@ -20,9 +19,9 @@ body{
 	text-align: center;
 	letter-spacing: 8px;
 	font-size: 40px;
-	width: 400px;	
 	left: 500px;
 	font-family: 'Style Script', cursive;
+	right: 500px;
 }
 
 .txt2{
@@ -31,9 +30,9 @@ body{
 	text-align: center;
 	line-height: 30px;
 	font-size: 20px;
-	width: 1329px;
 	padding: 10px;
 	font-family: 'Style Script', cursive;
+	width: 98.5%;
 }
 
 .img2{
@@ -69,7 +68,7 @@ h2{
 	text-align: center;
 	line-height: 30px;
 	font-size: 20px;
-	width: 1329px;
+	width: 98.5%;
 	padding: 10px;
 	font-family: 'Style Script', cursive;
 }
@@ -90,7 +89,7 @@ h2{
 	text-align: center;
 	line-height: 30px;
 	font-size: 20px;
-	width: 1329px;
+	width: 98.5%;
 	padding: 10px;
 	font-family: 'Style Script', cursive;
 }
@@ -102,3 +101,4 @@ h2{
 #i2{
 	top: 500px;
 }
+
