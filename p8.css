@@ -16,12 +16,11 @@ body{
 	background-color: rgba(125, 125, 125, 0.90);
 	color: rgba(255, 255, 255, 0.90);
 	position: absolute;
-	text-align: center;
 	letter-spacing: 8px;
 	font-size: 40px;
-	left: 500px;
 	font-family: 'Style Script', cursive;
-	right: 500px;
+	width: 100%;
+	text-align: center;
 }
 
 .txt2{
@@ -53,13 +52,12 @@ h2{
 .txt3{
 	color: navajowhite;
 	position: absolute;
-	text-align: center;
 	letter-spacing: 8px;
 	font-size: 40px;
-	width: 400px;	
-	left: 500px;
+	width: 100%;
 	top: 500px;
 	font-family: 'Style Script', cursive;
+	text-align: center;
 }
 
 .txt4{
