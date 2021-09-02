@@ -1,0 +1,36 @@
+ul{
+	margin: 0px;
+	background-color: aliceblue;
+	list-style-type: none;
+	height: 200px;
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	width: 97%;
+}
+
+body{
+	margin: 0px;
+}
+
+.l2{
+	float: right;
+	padding: 40px 10px 10px 30px;
+}
+
+a{
+	text-decoration: none;
+	color: orange;
+	font-weight: 700;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+a:hover{
+	color: white;
+	text-decoration: underline;
+	background-color: black;
+}
+
+l1{
+	float: left;
+}
