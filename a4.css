@@ -1,0 +1,56 @@
+body{
+	margin: 0px;
+}
+
+li{
+	display: inline-block;
+	list-style-type: none;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 1%;
+	padding-right: 1%;
+	height: 50%;
+	font-family: 'Oswald', sans-serif;
+	top: 50%;
+}
+
+.nb{
+	text-align: right;
+	background-color: aliceblue;
+	margin: 0%;
+	font-size: 200%;
+	height: 180px;
+}
+
+a{
+	text-decoration-line: none;
+	color: orange;
+}
+
+li:hover{
+	color: white;
+	background-color: steelblue;
+}
+
+.img{
+	border-radius: 100%;
+	float: left;
+	margin-top: 1%;
+	margin-left: 1%;
+}
+
+ul{
+	margin: auto;
+}
+
+h1{
+	display: inline-block;
+	list-style-type: none;
+	height: 50%;
+	font-family: 'Oswald', sans-serif;
+	float: left;
+	padding-left: 2%;
+	font-size: 160%;
+	color: orange;
+	margin-top: 3%;
+}
