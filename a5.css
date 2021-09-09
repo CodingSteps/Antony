@@ -1,0 +1,40 @@
+body{
+	margin: 0px;
+}
+
+.head{
+	text-align: center;
+	background-color: rgba(60, 194, 159, 1);
+	width: 100%;
+	padding: 20px 0px 20px 0px;
+}
+
+.navibar{
+	width: 100%;
+	background-color: rgba(70, 194, 60, 1);
+	height: 57.75px;
+}
+
+ul{
+	list-style-type: none;	
+}
+
+li{
+	margin: 0px;
+	float: left;
+	background-color: rgba(70, 194, 60, 1);
+	padding: 20px;
+	position: relative;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.ol:hover{
+	color: white;
+	text-decoration: underline;
+	background-color: rgba(113, 218, 105, 1);
+	padding: 20px;
+}
