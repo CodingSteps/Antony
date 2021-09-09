@@ -2,7 +2,7 @@ body{
 	margin: 0px;
 }
 
-.head{
+.intRo{
 	text-align: center;
 	background-color: rgba(60, 194, 159, 1);
 	width: 100%;
@@ -10,13 +10,16 @@ body{
 }
 
 .navibar{
-	width: 100%;
+	width: 97.1%;
 	background-color: rgba(70, 194, 60, 1);
 	height: 57.75px;
+	margin: 0px;
 }
 
 ul{
-	list-style-type: none;	
+	list-style-type: none;
+	margin-left: 5%;
+	position: relative;	
 }
 
 li{
@@ -24,7 +27,6 @@ li{
 	float: left;
 	background-color: rgba(70, 194, 60, 1);
 	padding: 20px;
-	position: relative;
 }
 
 a{
