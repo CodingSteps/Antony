@@ -1,6 +1,7 @@
 body{
 	margin: 0px;
 	box-sizing: border-box;
+	clear: both;
 }
 
 
@@ -44,11 +45,17 @@ a{
 	background-color: rgba(113, 218, 105, 1);
 	padding: 20px;
 }
+ 
+.OTC{
+	width: 20%;
+	clear: both;
+	padding: 10px;
+	float: left;
+}
 
 .OpTiOnS{
 	list-style-type: none;
 	background-color: rgba(83, 146, 80, 1);
-	width: 20%;
 	margin-top: 2px;
 	margin-bottom: 2px;
 	margin-left: 5px;
@@ -57,16 +64,10 @@ a{
 	padding: 5px;
 }
 
-@media screen and (max-width: 768px)
-
-.OTC{
-	padding-left: 10px;
-}
 
 .cHosOpt{
 	list-style-type: none;
 	background-color: rgba(83, 146, 80, 1);
-	width: 20%;
 	margin-top: 2px;
 	margin-bottom: 2px;
 	margin-left: 5px;
@@ -86,17 +87,11 @@ a{
 	background-color: rgba(60, 194, 159, 1);
 	padding: 20px 0px 20px 0px;
 	float: right;
-	margin: 10px;
+	margin-bottom: 5px;
 }
 
 .coNtenT{
-	width: 75%;
+	width: 77%;
 	float: right;
+	margin: 10px;
 }
-
-p{
-	float: right;
-}
-
-
-
