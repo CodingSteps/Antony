@@ -1,5 +1,6 @@
 body{
 	margin: 0px;
+	box-sizing: border-box;
 }
 
 .intRo{
@@ -10,23 +11,24 @@ body{
 }
 
 .navibar{
-	width: 97.1%;
+	width: 100%;
 	background-color: rgba(70, 194, 60, 1);
 	height: 57.75px;
 	margin: 0px;
-}
-
-ul{
 	list-style-type: none;
-	margin-left: 5%;
+	margin-left: 0%;
 	position: relative;	
+	padding: 0px;
 }
 
-li{
+
+.nav{
 	margin: 0px;
 	float: left;
-	background-color: rgba(70, 194, 60, 1);
-	padding: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 0px;
+	max-width: 160px;
 }
 
 a{
@@ -34,9 +36,51 @@ a{
 	color: white;
 }
 
-.ol:hover{
+.chOs:hover{
 	color: white;
 	text-decoration: underline;
-	background-color: rgba(113, 218, 105, 1);
+	background-color: #7FFF00;
 	padding: 20px;
 }
+
+.OpTiOnS{
+	list-style-type: none;
+	background-color: rgba(83, 146, 80, 1);
+	width: 20%;
+	margin: 2px 2px 5px 2px;
+	height: 20px;
+	padding: 5px;
+	right: 70%;
+}
+
+.lISt{
+	padding-left: 10px;
+}
+
+.cHosOpt{
+	list-style-type: none;
+	background-color: rgba(83, 146, 80, 1);
+	width: 20%;
+	margin: 2px 2px 5px 2px;
+	height: 20px;
+	padding: 5px;
+}
+
+.OpTiOnS:hover{
+	background-color: rgba(113, 218, 105, 1);
+	text-decoration: underline;
+}
+
+.tOpic{
+	width: 75%;
+	text-align: center;
+	background-color: rgba(60, 194, 159, 1);
+	padding: 20px 0px 20px 0px;
+	float: right;
+	margin: 10px;
+}
+
+.coNtenT{
+	width: 100%;
+}
+
