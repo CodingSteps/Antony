@@ -26,10 +26,11 @@ body{
 .nav{
 	margin: 0px;
 	float: left;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 0px;
 	max-width: 160px;
+}
+
+.chOs{
+	padding: 20px;
 }
 
 a{
@@ -57,6 +58,7 @@ a{
 }
 
 @media screen and (max-width: 768px)
+
 .OTC{
 	padding-left: 10px;
 }
