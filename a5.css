@@ -94,3 +94,13 @@ a{
 	float: right;
 	margin: 10px;
 }
+
+@media screen and (max-width: 768px)
+.OTC{
+	width: 100%;
+}
+
+@media screen and (max-width: 768px)
+.coNtenT{
+	width: 100%;
+}
