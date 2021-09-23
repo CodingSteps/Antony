@@ -53,6 +53,12 @@ a{
 	float: left;
 }
 
+@media screen and (max-width: 768px)
+.OTC{	
+	width: 100%;
+}
+
+
 .OpTiOnS{
 	list-style-type: none;
 	background-color: rgba(83, 146, 80, 1);
@@ -93,11 +99,6 @@ a{
 	width: 77%;
 	float: right;
 	margin: 10px;
-}
-
-@media screen and (max-width: 768px)
-.OTC{
-	width: 100%;
 }
 
 @media screen and (max-width: 768px)
