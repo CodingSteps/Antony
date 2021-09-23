@@ -53,14 +53,6 @@ a{
 	float: left;
 }
 
-@media screen and (max-width: 768px){
-.OTC{	
-	width: 100%;
-}
-
-}
-
-
 .OpTiOnS{
 	list-style-type: none;
 	background-color: rgba(83, 146, 80, 1);
@@ -104,8 +96,13 @@ a{
 }
 
 @media screen and (max-width: 768px){
-.coNtenT{
-	width: 100%;
-}
+
+  .OTC
+  {
+    width: 100%;
+  }
+
+  .coNtenT{width: 100%;}
 
 }
+
