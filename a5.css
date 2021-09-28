@@ -1,6 +1,9 @@
+*{
+	box-sizing: border-box;
+}
+
 body{
 	margin: 0px;
-	box-sizing: border-box;
 	clear: both;
 }
 
@@ -91,7 +94,7 @@ a{
 
 .coNtenT{
 	width: 77%;
-	float: right;
+	float: left;
 	margin: 10px;
 }
 
