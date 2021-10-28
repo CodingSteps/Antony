@@ -1,0 +1,121 @@
+.sp1{
+	display: inline-block;
+	animation-name: movilett;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	font-size: 50px;
+	animation-delay: 0s;
+}
+
+@keyframes movilett{
+	0%{transform: rotateX(0deg);}
+	50%{transform: rotateX(360deg);}
+	100%{transform: rotateX(0deg);}
+}
+
+.sp2{
+	display: inline-block;
+	animation-name: movilett2;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	font-size: 50px;
+	animation-delay: 1s;
+}
+
+@keyframes movilett2{
+	0%{transform: rotateY(0deg);}
+	50%{transform: rotateY(360deg);}
+	100%{transform: rotateY(0deg);}
+}
+
+.sp3{
+	display: inline-block;
+	animation-name: movilett;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	font-size: 50px;
+	animation-delay: 2s;
+}
+
+.sp4{
+	display: inline-block;
+	animation-name: movilett2;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	font-size: 50px;
+	animation-delay: 3s;
+}
+
+.sp5{
+	display: inline-block;
+	animation-name: movilett;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	font-size: 50px;
+	animation-delay: 4s;
+}
+
+.sp6{
+	display: inline-block;
+	animation-name: movilett2;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	font-size: 50px;
+	animation-delay: 5s;
+}
+
+.sp7{
+	display: inline-block;
+	animation-name: movilett;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	font-size: 50px;
+	animation-delay: 6s;
+}
+
+.sp8{
+	display: inline-block;
+	animation-name: movilett2;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	font-size: 50px;
+	animation-delay: 7s;
+}
+
+.sp9{
+	display: inline-block;
+	animation-name: movilett;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	font-size: 50px;
+	animation-delay: 8s;
+}
+
+.sp10{
+	display: inline-block;
+	animation-name: movilett2;
+	animation-duration: 3s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	font-size: 50px;
+	animation-delay: 9s;
+}
