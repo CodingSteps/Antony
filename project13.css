@@ -1,0 +1,22 @@
+.cont{
+	background-color: lightblue;
+	width: 100%;
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.cont>div{
+	border: 4px solid red;
+	margin: 10px;
+	padding: 10px;
+	flex: 1 1 20%;
+
+}
+
+.one{
+	align-self: stretch;
+}

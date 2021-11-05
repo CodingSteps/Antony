@@ -1,0 +1,45 @@
+*{
+	box-sizing: border-box;
+	letter-spacing: 2px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+body{
+	background-color: cadetblue;
+}
+
+.he{
+	font-size: 75px;
+	text-align: center;
+}
+
+.contai{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 100px 30px 100px 30px;
+
+}
+
+.p{
+	border: 10px solid white;
+	border-radius: 10px;
+	margin: 5px;
+}
+
+img{
+	width: 400px;
+	height: 400px;
+}
+
+.p>div{
+	background-color: darkblue;
+    opacity: 0.8;
+    text-align: center;
+    padding: 20px 5px 20px 5px;
+    margin-top: -5px;
+    font-size: 22px;
+    font-weight: 700;
+    width: 400px;
+}
