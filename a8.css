@@ -17,9 +17,10 @@ body{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	align-items: center;
+	align-items: stretch;
 	margin: 100px 20px 100px 20px;
 	flex-wrap: wrap;
+	flex: 30%;
 
 }
 
@@ -43,4 +44,14 @@ img{
     font-size: 22px;
     font-weight: 700;
     width: 400px;
+}
+
+@media screen and(max-width: 992px){
+
+	.contai{flex: 40%;}
+}
+
+@media screen and(max-width: 768px){
+
+	.contai{flex: 100%;}
 }
