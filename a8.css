@@ -17,10 +17,9 @@ body{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	align-items: stretch;
+	align-items: center;
 	margin: 100px 20px 100px 20px;
 	flex-wrap: wrap;
-	flex: 30%;
 
 }
 
@@ -28,6 +27,7 @@ body{
 	border: 10px solid white;
 	border-radius: 10px;
 	margin: 5px;
+	flex: 30%;
 }
 
 img{
