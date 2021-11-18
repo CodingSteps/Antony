@@ -68,10 +68,16 @@ h1{
 }
 }
 
-
+@media screen and (max-width: 280px){
 
 .liNK{
-	padding: 20px;
+	width: 60%;
+	font-size: 5px;
+}
+}
+
+.liNK{
+	padding: 10px;
 	background-color: rgba(243, 243, 121, 0.50);
 	border-radius: 20px;
 	font-size: 20px;
