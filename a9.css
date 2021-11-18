@@ -27,11 +27,13 @@ h1{
 .d2{
 	padding: 20px;
 	background-color: rgba(110, 69, 69, 1);
+	text-align: justify;
 }
 
 .d3{
 	padding: 20px;
 	background-color: rgba(216, 207, 151, 1);
+	text-align: justify;
 }
 
 .d4{
@@ -44,12 +46,14 @@ h1{
 	padding: 20px;
 	background-color: rgba(110, 69, 69, 1);
 	flex: 30%;
+	text-align: justify;
 }
 
 .pa2{
 	padding: 20px;
 	background-color: rgba(216, 207, 151, 1);
 	flex: 30%;
+	text-align: justify;
 }
 
 @media screen and (max-width: 768px){
