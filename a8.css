@@ -31,19 +31,18 @@ body{
 }
 
 img{
-	width: 400px;
+	width: 100%;
 	height: 400px;
 }
 
 .p>div{
 	background-color: darkblue;
-    opacity: 0.8;
     text-align: center;
     padding: 20px 5px 20px 5px;
     margin-top: -5px;
     font-size: 22px;
     font-weight: 700;
-    width: 400px;
+    width: 100%;
 }
 
 @media screen and(max-width: 992px){
