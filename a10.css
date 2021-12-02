@@ -16,7 +16,7 @@ body{
 	padding-left: 0px;
 }
 
-.l2{
+.navb li{
 	float: right;
 	padding: 60px 10px 10px 50px;
 }
@@ -37,8 +37,8 @@ a:hover{
 
 .l1{
 	float: left;
-	margin: 10px 0px 0px 10px;
-	width: 30%;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 .ImgPar{
