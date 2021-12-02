@@ -144,9 +144,6 @@ footer{
 
 @media screen and(max-width: 768px){
 	.SeC{
-		margin: 20px;
-	}
-	.sectx{
 		flex-direction: column;
 	}
 }
