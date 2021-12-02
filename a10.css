@@ -147,5 +147,6 @@ footer{
 
 	.sectx{
 		flex: 0 0 80%;
+		background-color:blue;
 	}
 }
