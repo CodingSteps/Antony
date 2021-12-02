@@ -146,4 +146,8 @@ footer{
 	.SeC{
 		flex-direction: column;
 	}
+
+	.sectx{
+		flex: 0 0 80%;
+	}
 }
