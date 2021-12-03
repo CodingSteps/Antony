@@ -144,10 +144,10 @@ footer{
 
 @media screen and (max-width: 768px)
 {
-	footer{background-color:red;}
+	
 
 	.sectx{
-		flex: 0 0 80%;
-		background-color:blue;
+		flex: 0 0 90%;
+		
 	}
 }
