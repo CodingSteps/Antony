@@ -1,0 +1,59 @@
+h1{
+	text-align: center;
+}
+
+a{
+	color: black;
+	text-decoration-line: none;
+	position: absolute;
+	display: block;
+	position: absolute;
+	left: -130px;
+	transition: left 0.3s;
+	text-align: center;
+	padding: 15px;
+	width: 140px;
+	font-size: 22px;
+	font-weight: 700;
+	border-radius: 0 5px 5px 0;
+}
+
+.HoMe{
+	top: 220px;
+	background-color: green;
+}
+
+.AbouT{
+	top: 280px;
+	background-color: blue;
+}
+
+.Shop{
+	top: 340px;
+	background-color: red;
+}
+
+.COntact{
+	top: 400px;
+	background-color: dimgrey;
+}
+
+.HoMe:hover{
+	left: 5px;
+	transition: right 0.3s;
+}
+
+.AbouT:hover{
+	left: 5px;
+	transition: right 0.3s;
+}
+
+.Shop:hover{
+	left: 5px;
+	transition: right 0.3s;
+}
+
+.COntact:hover{
+	left: 5px;
+	transition: right 0.3s;
+}
