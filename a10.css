@@ -133,6 +133,7 @@ ul{
 .forfil{
 	width: 80%;
 	align-items: center;
+	padding-left: 20px;
 }
 
 footer{
@@ -150,4 +151,9 @@ footer{
 		flex: 0 0 90%;
 		
 	}
+	.sceim{
+		flex: 0 0 90%;
+		
+	}
+
 }
