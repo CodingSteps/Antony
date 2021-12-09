@@ -39,21 +39,21 @@ a{
 }
 
 .HoMe:hover{
-	left: 5px;
+	left: 0px;
 	transition: right 0.3s;
 }
 
 .AbouT:hover{
-	left: 5px;
+	left: 0px;
 	transition: right 0.3s;
 }
 
 .Shop:hover{
-	left: 5px;
+	left: 0px;
 	transition: right 0.3s;
 }
 
 .COntact:hover{
-	left: 5px;
+	left: 0px;
 	transition: right 0.3s;
 }
