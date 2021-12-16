@@ -1,0 +1,124 @@
+*{
+	font-family: 'Raleway', sans-serif;
+}
+
+.navb{
+	margin: 0px;
+	list-style-type: none;
+	height: 110px;
+	font-size: 30px;
+	width: 100%;
+	padding-left: 0px;
+	background-color: lightblue;
+}
+
+.l2{
+	float: right;
+	margin: 30px 30px 10px 30px;
+	border: 2px solid blue;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 15px;
+}
+
+a{
+	text-decoration: none;
+	color: blue;
+	font-weight: 700;
+	border-radius: 50px;
+}
+
+body{
+	margin: 0px;
+}
+
+.intro{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+h1{
+	font-family: 'Bakbak One', cursive;
+	font-size: 50px;
+	font-weight: 200;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.desc{
+	font-size: 20px;
+}
+
+.l3{
+	float: right;
+	margin: 30px 30px 10px 30px;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 15px;
+}
+
+.descri{
+	background-color: blue;
+	text-align: center;
+	color: white;
+	padding: 50px;
+}
+
+h2{
+	font-family: 'Bakbak One', cursive;
+	font-size: 30px;
+	font-weight: 200;
+	margin-bottom: 10px;
+}
+
+.descri>p{
+	margin: 50px 200px 50px 200px;
+}
+
+#ic{
+	color: grey;
+	font-size: 100px;
+}
+
+.abilities{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 100px 20px 100px 20px;
+	flex-wrap: wrap;
+
+}
+
+.p{
+	border: 10px solid blueviolet;
+	border-radius: 10px;
+	margin: 5px;
+	flex: 30%;
+	height: 500px;
+	text-align: center;
+}
+
+.p>img{
+	width: 100%;
+	height: 90%;
+}
+
+@media screen and (max-width: 768px){
+	.descri>p{
+		margin: 50px;	
+	}
+
+	.p>div{
+		font-size: 10px;
+	}
+}
+
+.l2:hover{
+	background-color: cadetblue;
+}
+
+.l3:hover{
+	background-color: cadetblue;
+}

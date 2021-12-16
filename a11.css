@@ -57,3 +57,41 @@ a{
 	left: 0px;
 	transition: right 0.3s;
 }
+
+#img{
+	width: 100%;
+	height: 100%;
+}
+
+.Imaove{
+	position: relative;
+	width: 20%;
+	margin: auto;
+	margin-top: 50px;
+	height: 100%;
+}
+
+.overlay{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	background-color: darkblue;
+}
+
+.txt{
+	color: white;
+	font-size: 38px;
+	font-weight: 400;
+	position: absolute;
+	top: 45%;
+	width: 100%;
+	text-align: center;
+}
+
+.overlay:hover{
+	opacity: 0.5;
+	transition: opacity .5s ease;
+}

@@ -47,10 +47,10 @@ img{
 
 @media screen and(max-width: 992px){
 
-	.contai{flex: 40%;}
+	.p{flex: 40%;}
 }
 
 @media screen and(max-width: 768px){
 
-	.contai{flex: 100%;}
+	.p{flex: 100%;}
 }
