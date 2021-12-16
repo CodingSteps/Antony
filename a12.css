@@ -1,0 +1,39 @@
+.Imageani{
+	position: relative;
+	width: 20%;
+	margin: auto;
+	margin-top: 50px;
+	height: 100%;
+}
+
+#img{
+	width: 100%;
+	height: 100%;
+}
+
+.overlay{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	background-color: darkblue;
+}
+
+.text{
+	color: black;
+	font-size: 38px;
+	font-weight: 800;
+	position: absolute;
+	top: 90%;
+	width: 100%;
+	text-align: center;
+	background-color: lightblue;
+	height: 20%;
+}
+
+.overlay:hover{
+	opacity: 0.5;
+	transition: opacity .5s ease;
+}
