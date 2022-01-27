@@ -1,0 +1,53 @@
+*{
+	scroll-behavior: smooth;
+	letter-spacing: 2px;
+	font-family: "Abel", sans-serif;
+	box-sizing: border-box;
+ 	font-style: italic;
+	
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.navbar-p1>img{
+	border-radius: 50%;
+	width: 150px;
+	height: 145px;
+	margin-right: 10px;
+}
+
+.slides
+{
+	width: 100%;
+	height: 700px;
+}
+
+.p{
+	border: 10px solid blueviolet;
+	border-radius: 10px;
+	margin: 5px;
+	flex: 25%;
+	height: 100px;
+	text-align: center;
+}
+
+@media screen and (max-width: 1068px){
+
+.p>div{
+	font-size: 10px;
+}
+.p{
+	flex: 33%;
+}
+}
+
+@media screen and (max-width: 580px){
+
+
+.p{
+	flex: 100%;
+}
+}
