@@ -1,3 +1,7 @@
+*{
+	box-sizing: border-box;
+}
+
 .mynav{
 	background-color: yellowgreen;
 }
@@ -8,4 +12,191 @@
 
 .slides{
 	height: 700px;
+}
+
+#belowSlider{
+	background-color: greenyellow;
+	padding: 20px;
+	font-size: 20px;
+	width: 100%;
+}
+
+.divBtn{
+	float: right;
+	margin: 6px 30px 0px 20px;
+	text-decoration: none;
+	color: grey;
+	border: 2px solid grey;
+	padding: 5px 25px 5px 25px;
+	border-radius: 10px;
+	font-size: 20px;
+}
+
+.divBtn:hover{
+	background-color: orange;
+	text-decoration-line: underline;
+	color: blue;
+}
+
+.block{
+	clear: both;
+	margin: 20px;
+	padding: 50px 50px 20px 50px;
+}
+
+.blkhd{
+	font-size: 60px;
+	padding: 20px;
+	border-bottom: 2px solid black;
+}
+
+.blk{
+	width: 1000px;
+	margin: auto;
+	text-align: center;
+}
+
+.txt{
+	font-size: 20px;
+	color: black;
+	padding: 25px;
+}
+
+.ic1{
+	color: orange;
+	font-size: 70px;
+}
+
+.blkic{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.ic{
+	padding: 50px 50px 20px 50px;
+	text-align: center;
+}
+
+.ic3{
+	color: darkgoldenrod;
+	font-size: 70px;
+}
+
+.ic2{
+	color: mediumvioletred;
+	font-size: 70px;
+}
+
+.flxb{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.lftb, .rgtb{
+	flex: 0 1 45%;
+	padding: 20px;
+}
+
+.blkbtn{
+	background-color: orange;
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+.blkbtn:hover{
+	color: lightpink;
+	background-color: red;
+	text-decoration-line: underline;
+}
+
+@media screen and (max-width: 992px){
+	.blk{
+		width: auto;
+	}
+
+	.blkhd{
+		font-size: 40px;
+	}
+
+	.lftb, .rgtb{
+		padding: 5px;
+		margin: 20px;
+		flex: 100%;
+	}
+}
+
+.img1{
+	border: 10px solid saddlebrown;
+	border-radius: 10px;
+}
+
+hr{
+	width: 90%;
+}
+
+.imgbk{
+	padding: 80px 0px 40px 0px;
+	text-align: center;
+}
+
+.flxim{
+	flex: 30%;
+	padding: 10px;
+}
+
+.fb{
+	color: darkblue;
+	font-size: 70px;
+}
+
+.yt{
+	color: red;
+	font-size: 70px;
+}
+
+.ig{
+	color: orange;
+	font-size: 70px;
+}
+
+.gp{
+	color: #ec2222;
+	font-size: 70px;
+}
+
+.tw{
+	color: #1DA1F2;
+	font-size: 70px;
+}
+
+.ftbk{
+	background-color: #3F3F3F;
+	margin: 0px;
+	color: white;
+	text-align: center;
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.fsec{
+	flex: 0 1 30%;
+	padding: 10px;
+}
+
+.light{
+	border-top: 2px solid gray;
 }
